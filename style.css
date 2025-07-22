@@ -243,6 +243,10 @@ main > section{
     font-weight:700;
 }
 
+.hide{
+    display:none;
+}
+
 /* header section responsive start  */
 
 @media screen and (max-width:576px){
