@@ -358,7 +358,33 @@ main > section{
 /* fetures-section responsive  */
 
 
-@media screen and (max-width:576px){
+@media screen and (max-width:344px){
+
+    .fetures-section{
+        flex-direction:column;
+    }
+
+
+
+#exprience-badge{
+
+    margin-top:20px;
+    margin-left:20px;
+}
+
+.featured-architect img{
+    width:100%;
+}
+
+/* #exprience-badge{
+    padding:20px 0px;
+} */
+
+}
+
+
+
+@media screen and (max-width:344px)  and (max-width:576px){
 
     .fetures-section{
         flex-direction:column;
@@ -385,6 +411,7 @@ main > section{
 
     margin-top:20px;
     margin-left:20px;
+
 }
 
 }
